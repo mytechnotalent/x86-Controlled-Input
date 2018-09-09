@@ -9,7 +9,7 @@
 ; Compile:              nasm -f elf32 x86_controlled_input.asm
 ; Link:                 ld -m elf_i386 -o x86_controlled_input
 ;                       x86_controlled_input.o
-; Description:          Program that takes a maximum of 4 bytes of
+; Description:          A program that takes a maximum of 4 bytes of
 ;                       input from the terminal and checks for a
 ;                       successful combination of 4 continous integers
 ;                       otherwise loops to obtain a fresh buffer of
