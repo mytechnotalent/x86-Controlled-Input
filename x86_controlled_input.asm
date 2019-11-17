@@ -1,7 +1,7 @@
 ; ----------------------------------------------------------------------- ;
 ; Program:              x86 Controlled Input
 ; Version:              1.0
-; Developer:            Kevin M. Thomas
+; Developer:            Kevin Thomas
 ; Creation Date:        02/16/17
 ; Update Date:          02/16/17
 ; Copyright:            CC BY
