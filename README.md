@@ -1,5 +1,19 @@
-# x86_Controlled_Input
+# x86 Controlled Input
 x86 controlled input example taking a max of 4 bytes from the terminal and checking for a successful combination of int values in a row.
+
+## Installation
+```bash
+git clone https://github.com/mytechnotalent/x86_Controlled_Input.git
+cd x86_Controlled_Input
+```
+
+## Running
+
+```bash
+nasm -f elf32 x86_controlled_input.asm
+ld -m elf_i386 -o x86_controlled_input x86_controlled_input.o
+./x86_controlled_input
+```
 
 ## Contributing
 
