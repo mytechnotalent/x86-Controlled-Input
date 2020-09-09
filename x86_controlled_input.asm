@@ -4,7 +4,8 @@
 ; Developer:            Kevin Thomas
 ; Creation Date:        02/16/17
 ; Update Date:          02/16/17
-; Copyright:            CC BY
+; Copyright:            Copyright: (c) 2020, Kevin Thomas <kevin@mytechnotalent.com>
+; License:              Apache License, Version 2.0 (see COPYING or https://www.apache.org/licenses/LICENSE-2.0)
 ; Platform:             x86
 ; Compile:              nasm -f elf32 x86_controlled_input.asm
 ; Link:                 ld -m elf_i386 -o x86_controlled_input
