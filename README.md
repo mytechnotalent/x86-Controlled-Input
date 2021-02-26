@@ -1,4 +1,4 @@
-![image](https://github.com/mytechnotalent/x86_Controlled_Input/blob/master/x86%20Controlled%20Input.png?raw=true)
+![image](https://github.com/mytechnotalent/x86-Controlled-Input/blob/main/x86%20Controlled%20Input.png?raw=true)
 
 # x86 Controlled Input
 x86 controlled input example taking a max of 4 bytes from the terminal and checking for a successful combination of int values in a row.
