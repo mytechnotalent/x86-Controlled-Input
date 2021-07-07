@@ -7,8 +7,8 @@
 ; Copyright:            Copyright: (c) 2020, Kevin Thomas <kevin@mytechnotalent.com>
 ; License:              Apache License, Version 2.0 (see COPYING or https://www.apache.org/licenses/LICENSE-2.0)
 ; Platform:             x86
-; Compile:              nasm -f elf32 x86_controlled_input.asm
-; Link:                 ld -m elf_i386 -o x86_controlled_input
+; Compile:              nasm -f elf32 -o x86_controlled_input.o x86_controlled_input.asm
+; Link:                 ld -m elf_i386 -o x86_controlled_input x86_controlled_input.o
 ;                       x86_controlled_input.o
 ; Description:          A program that takes a maximum of 4 bytes of
 ;                       input from the terminal and checks for a
